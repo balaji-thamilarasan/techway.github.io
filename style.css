@@ -1,0 +1,354 @@
+html 
+{
+	scroll-behavior: smooth;
+}
+{
+	font-size: 16px;
+}
+.navbar
+{
+	background-color: #273c75;
+	padding: 10px;
+}
+
+.navbar-nav li
+{
+	padding: 0px 15px;
+}
+.navbar-nav li a
+{
+	color: #fff !important;
+	font-size: 15px;
+	font-weight: bolder;
+}
+.nav-link 
+{ 
+	font-family: 'Rancho' ;
+	font-family: 'Josefin Sans' ;
+}
+.nav-link:hover
+{
+	transition: .5s;
+	border-radius: 5px;
+	background-color: #fff;	
+	color:  #273c75 !important;
+}
+#nav-brands
+{
+	font-size: 30px;
+	padding: 0px;
+	font-family: 'Rancho' ;
+	font-family: 'Josefin Sans';
+    margin-top: 5px;
+}
+#collapsibleNavbar
+{
+	text-align: center;
+}
+#know 
+{
+	text-align: center;
+	font-size: 20px;
+	text-decoration:  none;
+	color: white;
+	border-radius: 5px;
+	padding: 10px;	
+	background-color: #e74c3c;
+	font-weight: 800;
+	font-family: 'Rancho' ;
+	font-family: 'Josefin Sans' ;
+}
+#know:hover
+{
+	transition: .5s;
+	background-color: white ;
+	color: #273c75;
+}
+.promo-title
+{
+	font-family: 'Rancho' ;
+	font-family: 'Josefin Sans' ;
+	margin-top: 160px;
+	font-size: 30px;
+	padding: 0px;
+
+}
+.promo-title2
+{
+	font-family: 'Rancho' ;
+	font-family: 'Josefin Sans' ;
+	margin-top: 0px;
+	margin-left: 16px;
+	margin-right: 0px;
+	padding: 0px;
+	font-size: 60px;
+	display: inline;
+	margin-bottom: 70px;
+	font-weight: 900;
+	color: white;
+}
+.promo-title3
+{
+
+	font-family: 'Rancho' ;
+	font-family: 'Josefin Sans' ;
+	margin-top: 0px;
+	margin-left: 60px;
+	margin-right: 0px;
+	padding: 0px;
+	font-size: 50px;
+	display: inline;
+	margin-bottom: 70px;
+	color: white;
+}
+#about-img
+{
+	margin-top: 50px;
+}
+.img-fluid
+{
+	margin-top: 0px;
+}
+#aboutus
+{
+	background-color: #dfe6e9;
+}
+.intro-h1
+{
+	font-family:'Poppins', sans-serif;
+	margin-top: 150px;
+	font-size: 60px;
+	font-weight: bolder;
+}
+.intro-p
+{
+	font-weight: bold;
+	font-family:'Poppins', sans-serif;
+	margin-top: 30px;
+	font-size: 20px;
+}
+.title::before
+{
+	content: '';
+	background-color: #273c75;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: block;
+	transform: translate(8px);
+}
+#ourservices
+{
+	background-color: #A8C5B0;
+	color: #313131;
+	font-family: 'Oswald', sans-serif;
+}
+#borders
+{
+	border: solid 1px #273c75;
+	padding:0px;
+	margin: 10px;
+	font-size: 10px;
+	border-radius: 5px;
+	background-color: #CDDED2;
+}
+#borders:hover
+{
+	transition: .3s;
+	box-shadow: 2px 2px 10px 10px #40739e;
+
+}
+.sales-p
+{
+	font-size: 30px; 
+	margin-top: 80px;
+}
+.service-p
+{
+	font-size: 30px;  
+	margin-top: 70px;
+}
+.web-p
+{
+	font-size: 30px; 
+	margin-top: 80px;
+}
+.online-p
+{
+	font-size: 30px;  
+	margin-top: 50px;
+}
+#banner
+{
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Images/2.jpg);
+	background-size: cover;
+}
+.skills-h1::before
+{
+	content: '';
+	background-color: #273c75;
+	height: 5px;
+	width: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	display: block;
+	transform: translate(8px);
+}
+.acheive-h1
+{
+	color: white;
+	margin-bottom: 80px;
+	font-family: 'Bubblegum Sans';
+}
+.acheive-p
+{
+	margin-left: 100px;
+	margin-top: 200px;
+	font-family: 'Bubblegum Sans';
+	font-weight: 500;
+	font-size: 25px;
+	margin-bottom: 200px;
+}
+.acheivements
+{
+	background: url("image/background.png");
+	background-size: cover;	
+}
+.btn{
+	display: inline-block;
+    width:50px;
+    height: 50px;
+    background: #273c75;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn i{
+	margin-left: 0px;
+    line-height: 35px;
+    font-size: 20px;
+    transition: 0.2s linear;
+}
+
+.btn:hover i{
+    transform: scale(1.3);
+    color: #f7f1e3;
+}
+
+.btn::before{
+    content: '';
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #e84118;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+.btn:hover::before{
+    animation: animate 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+@keyframes animate{
+    0%{
+        left: -110%;
+        top: 90%;
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+    }
+    100%{
+        top: -10%;
+        left: -10%;
+    }
+}
+
+
+
+#borders h1
+{
+	font-size: 30px;
+}
+.sales
+{
+	padding: 30px !important;
+}
+.skills-h1::before
+{
+	content: '';
+	background-color: #273c75;
+	height: 5px;
+	width: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	display: block;
+	transform: translate(8px);
+}
+#bannerimg
+{
+	margin-top: 130px;
+	width: 550px; 
+	height: 500px;
+}
+.mobile-h1
+{
+	font-size: 30px;
+	color: #40407a;
+}
+.mobile-h1
+{
+	color: #fff;
+}
+.contacts
+{
+	background: LINEAR-GRADIENT(TO RIGHT, RGB(28, 181, 255), RGB(225, 130, 197));
+	color: #f7f1e3;
+	font-family: 'Righteous', cursive;
+}
+#img-service
+{
+	width: 400px;
+	height: 400px;
+
+}
+@media only screen and (max-width: 700px)
+{
+	#nav-brands
+	{
+		font-size: 16px;
+	}
+	.logo-img
+	{
+		width: 50px;
+		height: 50px;
+	}
+	.navbar-toggler-icon
+	{
+		height: 20px;
+		width: 20px;
+	}
+	.img
+	{
+		width: 200px;
+		height: 200px;
+	}
+	#img-service
+	{
+		width: 240px;
+		height: 250px;
+	}
+}
